@@ -1,0 +1,240 @@
+@media(max-width: 1014px){
+    header .logo{
+        margin-left: 20px;
+    }
+    header input{
+        right: 100px;
+    }
+    header .fa-search{
+        right: 110px;
+    }
+    header .fa-shopping-cart{
+        right: 65px;
+    }
+    header nav i{
+        right: 20px;
+    }
+    header nav{
+        margin-right: 20px;
+    }
+    header nav ul{
+        right: 20px;
+    }
+    .products{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .item{
+        padding: 30px 20px;
+    }
+    .item .more-img{
+        width: 450px;
+    }
+    .cart{
+        padding: 30px 20px;
+    }    
+}
+
+@media(max-width: 890px){
+    .pro{
+        padding: 5px 0px;
+    }
+    .pro img{
+        max-height: 200px;
+    }
+    .service{
+        padding: 50px 10px;
+    }
+    .service h2{
+        font-size: 30px;
+        margin: 5px;
+    }
+    .service p.sub{
+        font-size: 18px;
+        margin: 10px 0px;
+    }    
+    footer{
+        padding: 0 20px;
+    }
+    .about{
+        padding: 20px 10px;
+    }
+    .pro-act{
+        padding: 20px 0px;
+        margin: 0 75px;
+    }    
+    .more-foot{
+        padding: 20px 20px;
+    }
+    .con-form{
+        padding: 40px 0;
+    }
+    .con-form form{
+        padding: 20px 20px;
+    }    
+    .cat{
+        padding: 20px;
+    }
+    .products{
+        padding: 10px 20px;
+    }
+    .item .more-img{
+        width: 400px;
+    }
+    .item{
+        grid-column-gap: 10px;
+    }
+}
+@media(max-width: 834px){
+    header .new-bar ul{
+        display: none;
+    }
+    header .new-bar #open{
+        display: block;
+    }
+    header .new-bar ul.active{
+        display: flex;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: calc(100% - 120px);
+        z-index: 1;
+        background: rgb(22, 22, 22);
+        height: 40px;
+        padding-right: 60px;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    /* width */
+    header .new-bar ul.active::-webkit-scrollbar {
+        height: 5px;
+    }
+    /* Track */
+    header .new-bar ul.active::-webkit-scrollbar-track {
+        background: none;
+    }
+    /* Handle */
+    header .new-bar ul.active::-webkit-scrollbar-thumb {
+        background: #888; 
+    }
+    /* Handle on hover */
+    header .new-bar ul.active::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }
+    header .new-bar ul.active li:last-child{
+        padding-right: 60px;
+    }
+}
+@media(max-width: 730px){
+    footer{
+        height: 150px;
+    }
+    .service .cont{
+        grid-template-columns: none;
+    }
+    .pro.a{
+        grid-template-columns: none;
+    }
+    .pro.b{
+        grid-template-columns: none;
+    }
+    .pro-act{
+        grid-template-columns: none;
+        display: flex;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    iframe{
+        height: 300px;
+    }
+    .more-foot{
+        grid-template-columns: 1fr 1fr;
+    }
+    .more-foot div{
+        margin-bottom: 20px;
+        margin-right: 5px; 
+    }
+    .products{
+        grid-template-columns: 1fr 1fr;
+    }
+    .item{
+        grid-template-columns: none;
+    }
+    .item .more-img{
+        width: 480px;
+    }
+    .cart.a{
+        overflow-x: scroll;
+        margin-right: 20px;
+    }
+    .cart table{
+        width: 600px;
+    }
+}
+@media(max-width: 480px){   
+    header input{
+        right: 0;
+    }
+    header input.active{
+        padding: 10px;
+        width: 100%;
+    }
+    header .fa-search{
+        font-size: 24px;
+        top: 18px;
+        right: 95px;
+    }
+    header .fa-shopping-cart{
+        font-size: 24px;
+        top: 18px;
+        right: 60px;
+    }
+    header nav .fa-bars{
+        top: 18px;
+        font-size: 24px;
+    }
+    header nav .fa-times{
+        top: 16px;
+        font-size: 28px;
+    }
+    footer{
+        height: 180px;
+    }
+    footer ul p{
+        left: 110px;
+        width: 100px;
+    }
+    .more-foot{
+        grid-template-columns: none;
+    }
+    .about.a{
+        grid-template-columns: none;
+    }
+    .about.b{
+        grid-template-columns: none;
+    }
+    .about div p{
+        padding: 0px 10px;
+    }
+    .con-form form{
+        padding: 20px 10px;
+        grid-template-columns: none;
+    }
+    .products{
+        grid-template-columns: none;
+    }   
+    header .new-bar #open{
+        left: 130px;
+        padding: 20px 10px; 
+    }
+    .item .more-img{
+        width: 300px;
+    }    
+    .total a.b{
+        display: block;
+        max-width: max-content;
+        margin-bottom: 20px;
+    }
+    header .logo{
+        margin-left: 10px;
+    }
+}
